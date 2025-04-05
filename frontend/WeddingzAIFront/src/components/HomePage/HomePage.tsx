@@ -6,7 +6,7 @@ import heroImage from "../../assets/images/homePage1.svg";
 const HomePage: React.FC = () => {
   return (
     <div className={styles.homePage}>
-      <NavBar />
+      <NavBar titleName='My Wedding' />
       <div className={styles.content}>
         <div className={styles.left}>
           <h1>

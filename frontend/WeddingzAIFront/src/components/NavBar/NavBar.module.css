@@ -6,13 +6,13 @@
     padding: 0px 4rem;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    color: #333;
+    color: #000000;
     z-index: 2;
     margin-top: -40px;
   }
   
   .logo img {
-    height: 200px;
+    height: 130px;
     margin-top: 0px;
     padding-left: 1px;
   }
@@ -23,6 +23,7 @@
     flex: 1;
     text-align: center;
   }
+
   
   .authWrapper {
     display: flex;
@@ -38,7 +39,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 14px;
+    font-size: 13px;
   }
   
   .auth a {
@@ -51,8 +52,8 @@
   }
   
   .authWrapper img {
-    width: 64px;
-    height: 64px;
+    width: 55px;
+    height: 55px;
     flex-shrink: 0;
     margin: 0;
   }
@@ -61,4 +62,13 @@
     font-weight: bold;
     font-size: 15px;
     margin: 0;
+  }
+
+  .title a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .title a:hover {
+    color: #333;
   }

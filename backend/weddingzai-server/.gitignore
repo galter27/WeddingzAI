@@ -60,4 +60,4 @@ storage/
 # Front directory 
 front/
 
-.env
+*.env*

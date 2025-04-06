@@ -4,6 +4,7 @@ import TodoListPage from "./pages/TodoListPage";
 import HomePage from "./components/HomePage/HomePage";
 import BudgetPage from "./pages/BudgetPage";
 import WeddingDashboardPage from "./pages/WeddingDashoardPage";
+import VendorAgent from "./components/VendorsAgent/VendorAgent";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/todolist" element={<TodoListPage />} />
         <Route path="/budget" element={<BudgetPage/>} />
         <Route path="/weddash" element={<WeddingDashboardPage/>} />
+        <Route path="/vendors" element={<VendorAgent/>} />
       </Routes>
     </BrowserRouter>
   );

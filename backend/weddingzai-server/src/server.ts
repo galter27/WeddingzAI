@@ -7,6 +7,7 @@ import mongoose from "mongoose";
 // Import routes
 import formUploadRoutes from "./routes/form-routes";
 import authRoutes from "./routes/auth_routes";
+import aiAgentsRoute from "./routes/aiAgents_routes";
 
 // const app: Application = express();
 const app = express();
@@ -34,6 +35,7 @@ app.use((req, res, next) => {
 // Routes
 app.use(apiBase, formUploadRoutes);
 app.use(apiBase, authRoutes);
+app.use(apiBase,aiAgentsRoute);
 
 // Add GET / route for project owners
 app.get("/", (req: Request, res: Response) => {
